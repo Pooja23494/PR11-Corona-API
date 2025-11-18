@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Coronavirus%20historic.jpg?itok=euv1V6kP');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 22px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.7s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #ffffffdd;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.stats-box {
+    background: #ffffffee;
+    padding: 18px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeScale 0.4s ease;
+}
+
+@keyframes fadeScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b5876;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .label {
+        font-size: 16px;
+    }
+
+    .value {
+        font-size: 18px;
+    }
+}
