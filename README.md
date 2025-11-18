@@ -7,25 +7,26 @@
 This project is a simple and responsive Corona Virus Tracker that fetches real-time global COVID-19 data using a public API. It displays confirmed cases, recovered counts, and death statistics in a clean UI.
 
 ## Useful for learning:
-✔ API fetching
-✔ Async JavaScript
-✔ DOM manipulation
-✔ Basic UI design
+
+- ✔ API fetching
+- ✔ Async JavaScript
+- ✔ DOM manipulation
+- ✔ Basic UI design
 
 ## 🚀 Features
 
-🌍 Worldwide COVID-19 statistics
-📊 Dynamic data fetching from API
-⚡ Fast, lightweight, and responsive
-🎨 Simple UI with clean layout
-🔄 Auto-updated real-time values
+- 🌍 Worldwide COVID-19 statistics
+- 📊 Dynamic data fetching from API
+- ⚡ Fast, lightweight, and responsive
+- 🎨 Simple UI with clean layout
+- 🔄 Auto-updated real-time values
 
 ## 🛠️ Tech Stack
 
-HTML5
-CSS3JavaScript (ES6+)
-
-COVID-19 API (public)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- COVID-19 API (public)
 
 ## 📡 API Used
 
