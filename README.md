@@ -32,7 +32,7 @@ This project is a simple and responsive Corona Virus Tracker that fetches real-t
 
 This project fetches data from a free public COVID-19 API:
 
-https://api.covid19api.com/summary
+https://api.rootnet.in/covid19-in/stats/latest
 
 ## 📸 Screenshots
 
